@@ -16,13 +16,13 @@ import 'package:flutter/rendering.dart';
 
 class HideableWidget extends StatefulWidget {
   const HideableWidget({
-    Key? key,
+    super.key,
     required this.child,
     required this.scrollController,
     this.useOpacity = true,
     this.duration = const Duration(milliseconds: 200),
     this.opacityDuration,
-  }) : super(key: key);
+  });
 
   /// This is the static widget you want to hide while scrolling.
   final Widget child;

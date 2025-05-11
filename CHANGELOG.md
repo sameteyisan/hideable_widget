@@ -13,3 +13,7 @@
 ## 1.0.3
 
 * Read.me changed.
+
+## 1.0.4
+
+* Updates minimum Flutter SDK to 3.27.0.
